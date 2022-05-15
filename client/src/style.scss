@@ -1,0 +1,16 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+ body {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1.75rem;
+ }
+
+ .add{
+    margin-left: 1em;
+ }
+
+ .icon-btn{
+    background: transparent !important;
+    border: none !important;
+ }

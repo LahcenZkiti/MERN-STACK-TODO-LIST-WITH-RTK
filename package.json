@@ -1,0 +1,26 @@
+{
+  "name": "mern-todo-list",
+  "version": "1.0.0",
+  "description": "MERN-Stack TODO-LIST Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js",
+    "dev": "npx concurrently \"npx nodemon server.js\" \"cd client && npm start\""
+  },
+  "author": "Zkiti_Lahcen",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "react-bootstrap": "^1.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,27 @@
+GET http://localhost:4000/todos
+
+###
+
+GET http://localhost:4000/todos/60cfa51ed31c740db4e7c812
+
+###
+
+POST http://localhost:4000/todos
+Content-Type: application/json
+
+{
+    "title":"Learn Laravel"
+}
+
+###
+
+PATCH  http://localhost:4000/todos/60d24f0d4f274e180c6807c0
+Content-Type: application/json
+
+{
+    "isCompleted": true
+}
+
+###
+
+DELETE  http://localhost:4000/todos/6120459f3e3d173060e00708
